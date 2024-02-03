@@ -1,0 +1,64 @@
+@import url('fonts/CrimsonText-Bold.ttf');
+
+body {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: rgb(241, 230, 230);
+}
+header {
+    position: absolute;
+    width: 1920px;
+    height: 154px;
+    left: 0;    
+    top: 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(153, 40, 40);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(63, 21, 21);
+}   
+.logo {
+    position: absolute;
+    width: 400px;
+    height: 81px;
+    left: 1468px;
+    right: 52px;
+    top: 34px;
+    bottom: 965px;
+    color: rgb(165, 188, 131);
+    font-family: 'Crimson Text', serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 0px;    
+    text-align: center;
+    
+}
+.img_photo {        
+    position: absolute;
+    width: 45px;
+    height: 50px;
+    left: 12.5%;
+    right: 25%;
+    top: 8.33%;
+    bottom: 8.33%;
+    size: 50%;
+}
+.hamburger {
+    position: absolute;
+    width: 52.67px;
+    height: 42.58px;
+    left: 16.67%;
+    right: 16.67%;
+    top: 20.84%;
+    bottom: 20.84%;
+}
+.search {
+    position: absolute;
+    width: 79px;
+    height: 73px;
+    left: 6.51%;
+    right: 89.38%;  
+    top: 3.89%;
+    bottom: 89.35%;
+}
